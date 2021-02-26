@@ -1,0 +1,140 @@
+/* CSS Document */
+body{
+	margin: auto 100px;
+}
+header{
+	background-image: url("img/header2.jpg");
+	background-size: 100% 350px; 
+	background-position: center;
+	height: 300px;  
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  overflow: hidden;
+  background-color:#333302;
+	font-family: Arial, Helvetica, sans-serif;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+	
+}
+
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: grey;
+}
+.logo{
+	padding-left: 25px;
+	padding-top: 10px;
+}
+.sect1{
+	float: left;
+	width: 66.6%;
+	height: 200px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.sect2{
+	float: left;
+	width: 33.33%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.div1{
+	width: 240px;
+	height: 330px;
+	float: left;
+	margin: 15px;
+	margin-top: 0px;
+	border-style: solid;
+	border-width: 2px;
+	border-color: black;
+	padding: 10px;
+}
+.img1{
+	width: 235px;
+	height: 130px;
+}
+.bottom-text{
+	margin-bottom: 50px;
+	margin-right: 50px;
+}
+.textt{
+	margin-right: 50px;
+}
+.sidediv1{
+	height: 190px;
+	background-color: black;
+	border: 0px;
+	border-radius: 5%;
+	margin-top: 15px;
+	padding: 5%;
+	padding-top: 20px;
+	color: white;
+}
+.sidediv2{
+	height: 220px;
+	background-color: black;
+	border: 0px;
+	border-radius: 5%;
+	margin-top: 15px;
+	padding: 5%;
+	padding-top: 20px;
+	color: white;
+}
+.sidediv3{
+	height: 200px;
+	background-color: black;
+	border: 0px;
+	border-radius: 5%;
+	margin-top: 15px;
+	padding: 5%;
+	padding-top: 20px;
+	color: white;
+}
+.sidediv4{
+	height: 250px;
+	background-color: black;
+	border: 0px;
+	border-radius: 5%;
+	margin-top: 15px;
+	padding: 5%;
+	padding-top: 20px;
+	color: white;
+}
+.greentext{
+	color:#1AB411;
+}
+.greentext2{
+	color:#1AB411;
+}
+.sidedots{
+	  list-style-type: square;
+  background-color: black;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 0 0%;
+	color: white;
+	padding-left: 20px;
+	float: left;
+}
+footer{
+	margin-top: 15px;
+	float: left;
+	width: 100%;
+	background-color: #333302;
+	height: 150px;
+	border-radius: 0px 0px 10px 10px;
+	color: white;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-top: 30px;
+	text-align: center;
+	
+}

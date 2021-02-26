@@ -1,0 +1,56 @@
+body{
+	margin: 0px auto;
+}
+
+header, footer{
+	background-color: pink;
+	height: 100px;
+}
+
+header{
+	background-color: yellow;
+}
+nav{
+	background-color: green;
+	height: 75px;
+	display: grid;
+	grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+	/*grid-template-row:*/
+}
+
+nav a{
+	text-decoration: none;
+}
+
+main{
+	background-color: orange;
+}
+section{
+	background-color: lightgreen;
+	height: 300px;
+}
+
+.section1 {
+	float: left;
+	width: 75%;
+}
+
+aside{
+	float: left;
+	background-color: orangered;
+	width: 25%;
+	height: 50%;
+}
+
+.rTop{
+	background-color: pink;
+}
+
+.rBottom{
+	background-color: darkgoldenrod;
+}
+
+footer{
+	background-color:  blue;
+	color: white;
+}
